@@ -1,0 +1,26 @@
+{
+  "name": "Codespace Editor",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/php:1": {},
+    "ghcr.io/devcontainers/features/perl:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode",
+        "ms-python.python"
+      ]
+    }
+  },
+
+  "forwardPorts": [
+    8080
+  ],
+
+  "postCreateCommand": "npm install"
+}

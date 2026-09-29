@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="128"
+height="128">
+
+<rect width="128"
+height="128"
+fill="#24292f"/>
+
+<text x="20"
+y="75"
+font-size="40"
+fill="white">
+CS
+</text>
+
+</svg>
